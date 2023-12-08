@@ -21,3 +21,4 @@ query PeopleQuery {
 ```
 
 The data will not include the `id` and `name` fields from the fragment
+

@@ -33,6 +33,9 @@ const config: CodegenConfig = {
     [webGeneratedDir]: {
       documents: [webDir + "/src/**/*.ts", webDir + "/src/**/*.tsx"],
       preset: "client",
+      config: {
+        useImplementingTypes: true,
+      },
       plugins: [],
     },
   },

@@ -25,6 +25,7 @@ export const PeopleQuery = graphql(`
 
 function App() {
   const { data, loading } = useQuery(PeopleQuery);
+
   if (loading) {
     return <p>Loading...</p>;
   }
